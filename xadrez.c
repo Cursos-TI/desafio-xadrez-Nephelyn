@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // torre
+   // torre
     printf("Torre:\n");
     for (int i = 0; i < 5; i++) {
         printf("Direita\n");
@@ -22,7 +22,18 @@ int main() {
         printf("Esquerda\n");
         j++;
     } while (j < 8);
-    
+
+    // Cavalo 
+    printf("\nCavalo:\n");
+    for (int k = 0; k < 1; k++) {
+        int l = 0;
+        while (l < 2) {
+            printf("Baixo\n");
+            l++;
+        }
+        printf("Esquerda\n");
+    }
+
 
 
     return 0;
